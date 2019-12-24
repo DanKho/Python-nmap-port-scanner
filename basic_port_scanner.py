@@ -20,7 +20,7 @@ def main():
     ip = get_ip()
     port_range = get_port_range()
     nmap_scanner.scan(ip, port_range, "-v")
-    print(nmap_scanner.scaninfo())
+    print('\n',nmap_scanner.scaninfo())
     print(nmap_scanner.csv())
 
 main()
