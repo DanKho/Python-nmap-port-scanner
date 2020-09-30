@@ -1,1 +1,1 @@
-Playing around with the Python nmap module
+Using python and nmap modules to build a basic network port scanner
